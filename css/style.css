@@ -1,0 +1,73 @@
+/******************************************
+/* HOT GARBAGE - PLEASE DON'T MIMIC THIS CSS
+/*******************************************/
+
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+h1,
+h2 {
+  text-align: center;
+}
+
+body {
+  background-color: gainsboro;
+}
+
+img {
+  height: 300px;
+}
+
+.first {
+  display: block;
+  margin: 0 auto;
+}
+
+div {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+div img {
+  margin-left: 1rem;
+}
+
+.shrink img {
+  transition: 1s ease;
+}
+
+.shrink img:hover {
+  -webkit-transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  transform: scale(0.8);
+  transition: 1s ease;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+/* #yutaOne {
+  background: #E0777D;
+}
+
+#yutaTwo {
+  background: rgba(0, 253, 81, 1);
+}
+
+#yutaThree {
+  background: rgba(0, 254, 255);
+}
+
+#yutaFour {
+  background: rgba(236, 245, 104, 1);
+}
+
+#yutaFive {
+  background: #ED7D3A;
+} */
